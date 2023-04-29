@@ -1,0 +1,98 @@
+For this project you'll need to install the following technologies:
+-Python
+-Make tool
+
+To execute this project, use the command: make
+
+Nimble Syntax:
+
+//////Syntaxe Operations Arithmétiques:
+a+b
+a-c
+a*c
+a/b
+a^b
+Double moins
+Parenthese
+Int float
+//////
+
+
+//////Syntaxe Operations Logique:
+Expr W Expr //AND
+Expr WELLA Expr  //OR
+AAKS expr      //NOT
+
+//////
+
+
+//////Syntaxe Variables:
+SAJEL Identifier = Expr
+//////
+
+//////Syntaxe String:
+Can use: 
++ 
+* 
+" "
+//////
+
+//////Syntaxe If:
+KEN condition AAMEL Expr WELLAKEN condition AAMEL Expr MAKENECH Expr
+
+KEN condition AAMEL 
+	Expr 
+WELLAKEN condition AAMEL 
+	Expr 
+MAKENECH Expr
+KAHAW
+//////
+
+
+//////Syntaxe For:
+MEN varname = startvalue HATA endvalue KADEM Number AAMEL  Expr
+
+MEN varname = startvalue HATA endvalue KADEM Number AAMEL
+  Expr
+KAHAW
+//////
+
+
+//////Syntaxe While:
+MADEM condition AAMEL Expr
+//////
+
+
+//////Syntaxe 
+Return: RAJAA
+Continue: KAMEL
+Break: KOS
+//////
+
+
+//////Syntaxe fonction:
+APP name(..)		 	
+	....
+KAHAW
+Arrow function: APP [name](....) -> ....
+Anonymos function: APP (...) -> ... 
+Appel: name()
+//////
+
+
+//////Syntaxe List:
+[] vide
+[] + 4 add element
+[] * [] concat lists
+[] -index remove element by index
+index start from 0
+retreive elements using []/index
+APPEND(list, number)
+EXTEND(list, list)
+POP(list, index)
+//////
+
+
+Multiple lines using ;
+
+

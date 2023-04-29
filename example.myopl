@@ -1,0 +1,69 @@
+EKTEB("#############Arithmetic Operations#############")
+#Variable declarations
+SAJEL a = 10 
+SAJEL b = 15
+EKTEB("The value of a is:")
+EKTEB(a)
+EKTEB("The value of b is:")
+EKTEB(b)
+EKTEB("SUM a+b: ")
+EKTEB(a+b)
+EKTEB("MINUS a-b: ")
+EKTEB(a-b)
+EKTEB("MULT a*b: ")
+EKTEB(a*b)
+EKTEB("DIV a/b:")
+EKTEB(a/b)
+EKTEB("POW a^b")
+EKTEB(a^b)
+
+EKTEB("#############Logical Operations #############")
+EKTEB("Is 10 bigger than 12?")
+EKTEB(10>12)
+EKTEB("What is the value of NOT 10?")
+EKTEB(AAKS 10)
+EKTEB("Is 10 equal to 10?")
+EKTEB(10==10)
+
+
+EKTEB("#############IF Operations #############")
+KEN 10>12 AAMEL 
+	EKTEB("Math is broken") 
+MAKENECH EKTEB("Math is okay")
+
+EKTEB("#############For Operations #############")
+SAJEL res = 0
+MEN i = 0 HATA 10 KADEM 1 AAMEL EKTEB(i)
+
+
+#EKTEB("#############While Operations #############")
+#SAJEL i = 10
+#MADEM i != 0 AAMEL EKTEB(i) 
+
+EKTEB("#############List Operations #############")
+SAJEL liste1 = [1,2]
+SAJEL liste2 = [4,5]
+EKTEB("Liste1:")
+EKTEB(liste1)
+EKTEB("Liste2:")
+EKTEB(liste2)
+liste1 + 3
+EKTEB("Liste1 with an added 3:")
+EKTEB(liste1)
+EKTEB("Liste1 concat Liste2:")
+EKTEB(liste1*liste2)
+EKTEB("First element of Liste1:")
+EKTEB(liste1/0)
+EKTEB("Last element of liste1:")
+EKTEB(liste1/(TOUL(liste1)-1))
+EKTEB("Liste1 without the first element:")
+EKTEB(liste1-0)
+EKTEB("The length of Liste1 is:")
+EKTEB(TOUL(liste1))
+
+EKTEB("#############Function Operations #############")
+APP somme(x,y,z) -> x+y+z
+
+SAJEL res = somme(1,0,10)
+EKTEB(res)
+
